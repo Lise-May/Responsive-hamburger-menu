@@ -1,5 +1,5 @@
 //adgang til hamburger og nav-menu class
-const hamburger = document.querySelector("hamburger"); 
+const hamburger = document.querySelector(".hamburger"); 
 const navMenu = document.querySelector(".nav-menu");
 
 //add en event lisenter til hamburger

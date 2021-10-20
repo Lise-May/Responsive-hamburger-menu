@@ -70,7 +70,6 @@ a{
     left: 0;
 }
 
-
 /* -------------- media query tablet --------------- */
 @media screen and (max-width: 950px) and (min-width: 672px){
 }
@@ -81,8 +80,11 @@ a{
     .nav-menu{
         display: flex;
         justify-content: space-between;
+        flex-direction: row;
         align-items: center;
         gap: 60px;
+        position: inherit;
+        padding-left: 60%;
     }
 
     .nav-link{ /*Hover effect*/
